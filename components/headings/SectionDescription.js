@@ -5,7 +5,7 @@ function SectionDescription({ text, className }) {
   return (
     <p
       className={classNames(
-        "text-semigrey font-bold text-2xl text-center max-w-[1144px] font-nunito",
+        "text-semigrey font-bold text-px14 lg:text-2xl text-center max-w-[1144px] font-nunito",
         className
       )}
     >

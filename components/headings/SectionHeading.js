@@ -5,7 +5,7 @@ function SectionHeading({ text, className }) {
   return (
     <h1
       className={classNames(
-        "text-semiblack font-bold text-px56 text-center max-w-[1144px] font-poppins leading-none",
+        "text-semiblack font-bold text-clamp-heading-md text-center max-w-[1144px] font-poppins leading-none",
         className
       )}
     >

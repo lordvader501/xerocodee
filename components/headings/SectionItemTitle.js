@@ -5,7 +5,7 @@ function SectionItemTitle({ text, className }) {
   return (
     <h4
       className={classNames(
-        "text-semiblack font-bold font-nunito text-center text-px28",
+        "text-semiblack font-bold font-nunito text-center text-base md:text-px28",
         className
       )}
     >

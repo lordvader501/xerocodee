@@ -9,7 +9,7 @@ function HeroButton({ text, className }) {
       variant="contained"
       color="primary"
       className={classNames(
-        "bg-darkblue px-6 rounded-md py-3 font-nunito text-center text-xl font-bold",
+        "bg-darkblue sm:px-6 px-4 rounded-md sm:py-3 py-2 font-nunito text-center text-px12 sm:text-xl font-bold",
         className
       )}
       size="large"

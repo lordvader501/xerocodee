@@ -61,3 +61,47 @@ button {
   border: none;
   outline: none;
 }
+/* .slick-dots {
+  position: unset !important;
+  margin-top: 30px !important;
+}
+.slick-track {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+}*/
+.slick-dots li button:before {
+  font-size: 10px !important;
+}
+.slick-prev,
+.slick-next {
+  width: 40px !important;
+  height: 40px !important;
+}
+.slick-prev {
+  left: -70px !important;
+}
+
+.slick-next {
+  right: -70px !important;
+}
+@media only screen and (max-width: 1024px) {
+  .slick-prev {
+    transform: translate(250%, -300%) !important;
+  }
+
+  .slick-next {
+    transform: translate(-250%, -300%) !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .slick-prev {
+    transform: translate(150%, -300%) !important;
+    width: 30px !important;
+  }
+
+  .slick-next {
+    transform: translate(-150%, -300%) !important;
+    width: 30px !important;
+  }
+}

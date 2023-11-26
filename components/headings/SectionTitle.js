@@ -5,7 +5,7 @@ function SectionTitle({ className, children }) {
   return (
     <h2
       className={classNames(
-        "text-semiblack font-poppins text-px44 font-semibold leading-none",
+        "text-semiblack font-poppins text-clamp-heading font-semibold leading-none text-center max-w-[1115px]",
         className
       )}
     >

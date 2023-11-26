@@ -1,6 +1,8 @@
 import { Inter, Poppins, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import classNames from "classnames";
+import CustomFooter from "@/components/footer/CustomFooter";
+import CustomNavbar from "@/components/navbar/CustomNavbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,7 +33,11 @@ export default function RootLayout({ children }) {
       className={`${inter.variable} ${poppins.variable} ${nunito.variable} `}
     >
       <body className={classNames("bg-semiwhite")}>
+        <CustomNavbar />
         <main>{children}</main>
+        <footer>
+          <CustomFooter />
+        </footer>
       </body>
     </html>
   );
